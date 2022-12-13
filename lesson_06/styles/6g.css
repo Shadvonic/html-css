@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.website {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.user {
+  color: grey;
+  font-weight: 100;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.user-two {
+  color: rgb(74, 108, 255);
+}

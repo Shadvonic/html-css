@@ -1,0 +1,16 @@
+p {
+  font-family: Arial;
+  text-align: center;
+}
+.title-text {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.sub-text {
+
+}
+
+.link-text {
+    color: rgb(15, 98, 207);
+}

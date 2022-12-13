@@ -1,0 +1,31 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.status-green {
+  font-size: 12px;
+  color: green;
+  font-size: 12px;
+}
+
+.status-red {
+  color: red;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.currency {
+color: grey;
+font-size: 10px;
+}
+
+.hours {
+  color: grey;
+  font-size: 12px;
+}
