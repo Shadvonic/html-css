@@ -9,36 +9,68 @@
     <link rel="stylesheet" href="">
     
     <style>
+    
+      .container { 
+        height: 175px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        justify-content: space-around;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        padding-left: 8px;
+      
+      }
+
+      .noti {
+        background-color: blue;
+        color: white;
+        border-style: none;
+        border-radius: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        padding-left: 8px;
+        
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
 
     </style>
 
   </head>
 
   <body>
-    <div style="
-      height: 150px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: grey;
-      display: flex;
-      flex-direction: column;
-      ">
-
-      <div style="">
-        <p>Home<span>14</span></p>
+    <div class = "container">
+     
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="noti">14</div>
       </div>
 
-      
-      <div style="">
-        <p>Notifications<div>3</div></p>
+      <div class="flexbox">
+        <div>Notifications</div>
+        <div class="noti">3</div>
       </div>
 
-      
-      <div style="">
-        <p>Messages<span>5</span></p>
+
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="noti">5</div>
       </div>
   
-    </div>
+
+  </div>
+
+     
 
   </body>
 
