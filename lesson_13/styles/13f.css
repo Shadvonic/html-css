@@ -1,0 +1,67 @@
+div {
+  font-family: Arial;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+ 
+  
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.profile-pic{ 
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+.tag {
+  color: grey;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 8px;
+  width: 250px;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+
+.video {
+  display: flex;
+  width: 200px;
+  background-color: grey;
+
+  
+}
+
+.link {
+  color: grey;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+
